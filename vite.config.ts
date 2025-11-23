@@ -7,9 +7,7 @@ export default defineConfig({
     outDir: 'dist',
   },
   define: {
-    // Injecting the API key provided for Vercel deployment.
-    // WARNING: In a production environment, it is recommended to set this in Vercel Project Settings > Environment Variables
-    // and use `process.env.API_KEY` here instead of the hardcoded string.
+    // Injecting the API key provided.
     'process.env.API_KEY': JSON.stringify("AIzaSyBCIawtsznKGifNCHYuK0vC_VYzYIpjbfU"),
     'process.env': {} 
   }
