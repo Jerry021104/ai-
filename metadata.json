@@ -1,0 +1,7 @@
+{
+  "name": "AI Hairstyle Architect",
+  "description": "An intelligent hairstyle matching application that analyzes facial features to recommend, visualize, and provide cutting instructions for personalized hairstyles under various lighting conditions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
